@@ -1,0 +1,26 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Aplicacion de Node.js con Expres.js",
+  "keywords": [
+    "node"
+  ],
+  "homepage": "https://github.com/Jcmalanco/Fullstack-class#readme",
+  "bugs": {
+    "url": "https://github.com/Jcmalanco/Fullstack-class/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jcmalanco/Fullstack-class.git"
+  },
+  "license": "ISC",
+  "author": "Malanco",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

@@ -27,7 +27,7 @@ const loadPosts = async (userId, userName) => {
     const Posts = await obtenerPosts();
     const userPosts = Posts.filter(post => post.userId === userId);
     const postIds = new Set(userPosts.map(p => p.id));
-    postList.innerHTML = "";
+    postList.textContent = "";
     postCount.textContent = `Posts de ${userName}: ${[...postIds].length}`;
     userPosts.forEach(({ id, title, body }) => {
         const li = document.createElement("li");
