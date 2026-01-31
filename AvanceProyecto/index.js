@@ -2,6 +2,7 @@ const express = require("express"); // impota express
 const app = express();
 const PORT = 3000; // puerto
 app.use(express.json()); // middleware para JSON
+//https://jcmalanco-5024375.postman.co/workspace/Juan-Carlos-Malanco-Rodriguez's~7ec218ca-6e36-4d37-86f0-3b8ccc6b4479/collection/51982639-85950b05-6144-452b-96fd-13652c89d090?action=share&creator=51982639
 
 // en el codigo crearia otra entidadad para manejar clientes y boletas por separado para una base de datos mas grande
 // pero para fines practicos y de simplicidad para el avence dejo solo una entidad boletas
@@ -172,6 +173,13 @@ app.delete("/boletas/:id/liquidadas", (req, res) => {
   res.status(200).json({
     mensaje: "Pago cancelado, boleta reiniciada",
     boleta
+  });
+});
+
+// ruta raiz
+app.get("/", (req, res) => { 
+  res.status(418).json({
+    mensaje: "http.cat/418"
   });
 });
 
