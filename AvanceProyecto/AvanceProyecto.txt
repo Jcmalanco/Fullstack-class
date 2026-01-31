@@ -1,0 +1,46 @@
+
+¿Qué quieres desarrollar?
+
+quiero desarrollar una aplicacion web donde los clientes de una casa de empeño puedan pagar en linea
+
+
+¿Qué problema resuelve tu proyecto?
+
+La perdida de tiempo de los clientes de la casa de empeño
+La perdida de dinero y clientes de la casa de empeño ya que la mayoria de sus ingresos provienen de estos
+
+
+¿A quién va dirigido?
+
+A las casas de empeño y los clientes de la casa de empeño
+
+
+¿Cuál es el enfoque principal del sistema?
+
+La facilidad de poder ver el estado de sus boletas y evitar el miedo de perderlas
+por no poder ir a pagar por falta de tiempo o condiciones fisicas
+tambien una interfaz agradable para las personas mayores o adultos que son el publico preferido
+
+
+¿Qué es lo mínimo que debe funcionar en tu proyecto?
+
+La visualizacion de la boleta, que pueda elegir entre pagar un solo pago o liquidar
+y que se refleje inmediatamente en la base de datos y la aplicacion web
+
+
+¿Qué funcionalidades incluye esta primera versión?
+
+- la visualizacion de la boleta relacionada con un cliente con arrays ya sean activas o liquidadas
+- la opcion de pagar el pago mensual o liquidar y que se actualice en la boleta
+- la cancelacion de pagos en caso de que el pago no se complete correctamente
+- la insercion de boletas nuevas con el formato adecuado
+
+
+¿Qué funcionalidades quedarán fuera por ahora?
+
+- la facturacion, la impresion, y el comprobante de pago exitoso
+- las fechas del proximo pago y de los pagos realizados
+- el trato independiente de cliente/boleta 
+- inicio de sesion del cliente
+- la base de datos
+- frontend
