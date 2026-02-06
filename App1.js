@@ -76,6 +76,9 @@ delete app.get('/products/id', (req, res) => {
 
 });
 
+app.router('/usuarios', require('./routes/usuarios'));
+
+
 app.listen(port, () => {
   console.log(`Example app listening http://localhost:${port}`)
 });
