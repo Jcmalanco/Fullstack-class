@@ -1,0 +1,19 @@
+https://www.postman.com/jcmalanco-5024375/juan-carlos-malanco-rodriguez-s-workspace/collection/51982639-8dc2db1a-9cee-4c70-95f1-4db7ca8641de
+https://github.com/Jcmalanco/Fullstack-class/tree/main/actividad3
+
+¿Qué reglas de negocio se implementaron?
+    Todo pedido inicia en estado “pendiente”.
+    No se permite crear pedidos con cantidad ≤ 0.
+    Un pedido pendiente solo puede cambiar a “confirmado” o “cancelado”.
+    Los pedidos confirmados o cancelados no se pueden modificar.
+    Solo los pedidos pendientes se pueden eliminar.
+
+¿En qué archivo viven esas reglas?
+
+    /src/controllers/pedidos.controller.js
+
+¿Por qué se tomaron esas decisiones?
+
+    Para proteger la integridad de los datos.
+    Para facilitar mantenimiento y escalabilidad ya que resulta mas facil que revisar 500 lineas de codigo.
+    Para separar responsabilidades correctamente y evitar que los usuarios puedan interactuar sin restricciones.
