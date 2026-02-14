@@ -1,0 +1,5 @@
+El query de forma dinámica la hice usando parámetros numerados en lugar de insertar los valores directamente en el texto del SQL. Por ejemplo, el nombre se pasa como $1, el precio como $2, el límite como $3 y el offset como $4. La estructura de la consulta queda fija, y los valores reales se envían aparte en un arreglo cuando se ejecuta la query.
+
+con esto evito Injection SQL porque los valores del usuario nunca se concatenan dentro del string del SQL. En vez de eso, el sistema de base de datos los trata como datos y no como parte del código. Aunque el usuario intente escribir algo malicioso como drop table en el nombre, se interpreta como texto de búsqueda y no se ejecuta como una instrucción SQL.
+
+https://www.postman.com/jcmalanco-5024375/workspace/juan-carlos-malanco-rodriguez-s-workspace/collection/51982639-2f14ca2d-b574-4a57-98a4-1e8853e76eb0?action=share&creator=51982639

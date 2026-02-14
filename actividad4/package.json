@@ -1,10 +1,10 @@
 {
-  "name": "actividad3",
+  "name": "actividad4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,7 @@
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "nodemon": "^3.1.11"
-  },
-  "devDependencies": {
-    "jest": "^30.2.0"
+    "nodemon": "^3.1.11",
+    "pg": "^8.18.0"
   }
 }
